@@ -1,0 +1,22 @@
+{
+  "name": "moonbeam-changes",
+  "version": "1.0.0",
+  "description": "returns changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Robert",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.9",
+    "moonbeam-mongodb": "git+https://github.com/bitfinexcom/moonbeam-mongodb.git",
+    "streaming-json-stringify": "^3.1.0"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  }
+}
