@@ -18,7 +18,7 @@ This server return the newly added items.
 
 Example: [example.js](example.js)
 
-## Defining own mongodb api compatible changes lookups
+## Create own MongoDB lookups
 
 The server is started with a parameter called `getStatement` which should return
 a MongoDB query statement.
